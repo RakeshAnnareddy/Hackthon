@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ district.name }} - Tourist Places</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="district-info">
+        <h2>{{ district.name }}</h2>
+        <p>{{ district.description }}</p>
+    </div>
+
+    <div class="places-info">
+        <h3>Tourist Places in {{ district.name }}</h3>
+        <div id="places-list">
+            {% for place in district.places %}
+            <div class="place-item">
+                <h4><a href="/place/{{ place.name | url_encode }}">{{ place.name }}</a></h4>
+                <p>{{ place.description }}</p>
+                <p><strong>Timings:</strong> {{ place.timings }}</p>
+                <p><strong>Pricing:</strong> {{ place.pricing }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

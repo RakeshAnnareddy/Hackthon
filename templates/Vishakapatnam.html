@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurnool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    h2, h3, p {
+      text-align: center;
+    }
+
+    #places-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+    }
+
+    .place {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 20px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .place img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .place-info {
+      width: calc(100% - 340px);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .map-button {
+      position: bottom;
+      bottom: 10px;
+      right: 10px;
+      padding: 12px 20px;
+      background-color: #84d5eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>WELCOME TO KURNOOL DISTRICT</h2>
+  <p><b>Kurnool District</b> is known for its rich history and beautiful tourist spots. From temples to forts and natural wonders, Kurnool offers a variety of scenic destinations for travelers.</p>
+  <h3>Places to visit in Kurnool</h3>
+  <div id="places-container">
+    <div class="place">
+      <img src="static/images/kurnool_fort.jpg" alt="Kurnool Fort">
+      <div class="place-info">
+        <h3>Kurnool Fort</h3>
+        <p>The Kurnool Fort, built in the 16th century, offers a glimpse into the history of the region. It is famous for its impressive architecture and historical significance.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/5xyY96hWfiZzzpAa7" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/alcott_burial_site.jpg" alt="Alcott Burial Site">
+      <div class="place-info">
+        <h3>Alcott Burial Site</h3>
+        <p>This historic site is where British officer Major John Alcott was buried. It is an interesting place to visit for history enthusiasts and those interested in colonial-era artifacts.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/XcU1vCk5yGgXwz5V9" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/rollapadu.jpg" alt="Rollapadu Wildlife Sanctuary">
+      <div class="place-info">
+        <h3>Rollapadu Wildlife Sanctuary</h3>
+        <p>Rollapadu Wildlife Sanctuary is home to several endangered species, including the Great Indian Bustard. It is a haven for nature lovers and bird watchers.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/ZvtdzFfyscRpeV3cA" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/simhadri.jpg" alt="Simhadri Temple">
+      <div class="place-info">
+        <h3>Simhadri Temple</h3>
+        <p>The Simhadri Temple, located near Kurnool, is dedicated to Lord Narasimha. It is an important pilgrimage site for devotees and attracts visitors with its serene atmosphere.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/M7w3p5LkeH2ofwvq8" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/banaganapalle.jpg" alt="Banaganapalle">
+      <div class="place-info">
+        <h3>Banaganapalle</h3>
+        <p>Known for its famous Banaganapalle mangoes, this town is a picturesque place with orchards and greenery. It's a peaceful getaway perfect for nature lovers.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/xrsHvutkgY9oP5tx6" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+{
+    "places": [
+        {
+            "name": "Tirupati",
+            "image": "/static/images/tirupati-balaji.jpg",
+            "description": "Tirupati is famous for Sri Venkateswara Temple, a popular Hindu pilgrimage site.",
+            "location": "Chittoor District, Andhra Pradesh"
+        },
+        {
+            "name": "Araku Valley",
+            "image": "/static/images/Araku.jpg",
+            "description": "Araku Valley is a beautiful hill station known for coffee plantations and waterfalls.",
+            "location": "Visakhapatnam District, Andhra Pradesh"
+        },
+        {
+            "name": "Vishakhapatnam Beach",
+            "image": "/static/images/vizag.jpg",
+            "description": "Known for scenic beaches like RK Beach, Yarada Beach, and serene coastline.",
+            "location": "Visakhapatnam, Andhra Pradesh"
+        },
+        {
+            "name": "Lepakshi",
+            "image": "/static/images/lepakshi.jpg",
+            "description": "Lepakshi is known for its stunning Veerabhadra Temple and the famous hanging pillar.",
+            "location": "Anantapur District, Andhra Pradesh"
+        },
+        {
+            "name": "Srisailam",
+            "image": "/static/images/Srisailam-Temple.jpg",
+            "description": "Srisailam is home to the famous Mallikarjuna Jyotirlinga temple, a sacred pilgrimage site.",
+            "location": "Nandyal District, Andhra Pradesh"
+        },
+        {
+            "name": "Horsley Hills",
+            "image": "/static/images/horsley.jpg",
+            "description": "Horsley Hills is a beautiful hill station known for its cool climate and scenic beauty.",
+            "location": "Chittoor District, Andhra Pradesh"
+        },
+        {
+            "name": "Borra Caves",
+            "image": "/static/images/borracaves.jpg",
+            "description": "Borra Caves are famous for their stunning stalactites and stalagmites formations.",
+            "location": "Visakhapatnam District, Andhra Pradesh"
+        },
+        {
+            "name": "Gandikota Fort",
+            "image": "/static/images/grandikota.jpg",
+            "description": "Gandikota is known as the 'Grand Canyon of India' for its breathtaking gorge and fort.",
+            "location": "Kadapa District, Andhra Pradesh"
+        },
+        {
+            "name": "Ahobilam",
+            "image": "/static/images/eguva-ahobilam.jpg",
+            "description": "Ahobilam is a famous pilgrimage site dedicated to Lord Narasimha.",
+            "location": "Nandyal District, Andhra Pradesh"
+        }
+    ]
+}

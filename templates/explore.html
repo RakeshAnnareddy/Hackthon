@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andhra Pradesh Districts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f4f4f4;
+            min-height: 100vh; /* Allow scrolling */
+            overflow-y: auto;  /* Ensure overflow content is visible */
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #0077b6;
+            padding: 15px 30px;
+            color: white;
+            width: 100%;  /* Full width */
+            max-width: 100vw; /* Prevents overflow */
+            box-sizing: border-box; /* Ensures padding doesn't affect width */
+        }
+        
+        nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            text-align: center;
+            padding: 20px;
+        }
+        .title {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Dynamic resizing */
+            gap: 20px;
+            justify-content: center;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .box img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .box h3 {
+            margin: 10px 0;
+        }
+        .box p {
+            font-size: 14px;
+            color: #666;
+        }
+        .back-btn {
+            display: block;
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 16px;
+            color: blue;
+        }
+        .district-link {
+            text-decoration: none; /* Remove the underline */
+            color: inherit; /* Inherit the color from the parent element (e.g., white, black, etc.) */
+        }
+        
+        .district-link:hover {
+            text-decoration: none; /* Ensure no underline appears when hovering */
+            color: #333; /* Change the color when hovered, if desired */
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Travel with Guru</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#places">Places</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/guide">Guide</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="title">Districts of Andhra Pradesh</div>
+        <div class="boxes" id="districts-container">
+            <!-- Dynamic content will be loaded here -->
+        </div>
+        <a href="/" class="back-btn">← Back to Home</a>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="static/js/explore.js"></script> 
+</body>
+</html>

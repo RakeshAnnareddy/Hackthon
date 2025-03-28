@@ -1,0 +1,53 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .search input, .filters select {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .filters select {
+    margin-left: 10px;
+  }
+  
+  .guide-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .guide-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  footer>p{
+    position: fixed;
+    bottom: 100px;
+    text-align: center;
+  }

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kadapa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    h2, h3, p {
+      text-align: center;
+    }
+
+    #places-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+    }
+
+    .place {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 20px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .place img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .place-info {
+      width: calc(100% - 340px);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .map-button {
+      position: bottom;
+      bottom: 10px;
+      right: 10px;
+      padding: 12px 20px;
+      background-color: #84d5eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>WELCOME TO KADAPA DISTRICT</h2>
+  <p><b>Kadapa</b>, known for its rich history and cultural heritage, offers a variety of historical monuments, temples, and natural attractions. It's a perfect destination for both history enthusiasts and nature lovers.</p>
+  <h3>Places to visit in Kadapa</h3>
+  <div id="places-container">
+    <div class="place">
+      <img src="static/images/ondo_caves.jpg" alt="Ondo Caves">
+      <div class="place-info">
+        <h3>Ondo Caves</h3>
+        <p>The Ondo Caves are a group of ancient rock-cut temples located near Kadapa. These caves are known for their fascinating architecture and historical significance.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/Z2YPYcGVY9xVd2dQ9" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/sri_venkateswara_temple.jpg" alt="Sri Venkateswara Temple">
+      <div class="place-info">
+        <h3>Sri Venkateswara Temple</h3>
+        <p>This ancient temple is dedicated to Lord Venkateswara and is one of the most revered pilgrimage sites in Kadapa. The temple is famous for its spiritual importance and stunning architecture.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/cDfvfNwdcPjVBRVw6" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/jammalamadugu.jpg" alt="Jammalamadugu">
+      <div class="place-info">
+        <h3>Jammalamadugu</h3>
+        <p>Jammalamadugu is a small town in Kadapa district known for its scenic beauty and agricultural significance. It is an ideal location for a peaceful getaway amidst nature.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/7pzp2jV5AVHcVoePA" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/sri_ranganayaka_temple.jpg" alt="Sri Ranganayaka Temple">
+      <div class="place-info">
+        <h3>Sri Ranganayaka Temple</h3>
+        <p>Dedicated to Lord Vishnu, the Sri Ranganayaka Temple is a stunning place to visit in Kadapa. The temple’s serene atmosphere makes it a perfect spot for devotees and travelers alike.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/LGpXgtV3ZzUM2jxj9" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/penna_river.jpg" alt="Penna River">
+      <div class="place-info">
+        <h3>Penna River</h3>
+        <p>The Penna River is a major watercourse flowing through Kadapa district. Its serene surroundings and picturesque views make it an excellent destination for nature lovers and photographers.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/4wtzZtByZmFV7j5Y8" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

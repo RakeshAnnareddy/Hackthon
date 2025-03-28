@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guide Availability - Travel with Guru</title>
+  <link rel="stylesheet" href="static/css/guide.css">
+  <style>
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #0077b6;
+      padding: 15px 30px;
+      color: white;
+    }
+
+    nav .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .guide-card {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .popup button {
+      margin: 10px;
+      padding: 8px 15px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .popup .low { background: #4CAF50; color: white; }
+    .popup .medium { background: #FFC107; color: white; }
+    .popup .high { background: #F44336; color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Travel with Guru</div>
+      <ul></ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h3 style="text-align:center;">Guide Interface</h3>
+    <input type="text" id="search-bar" placeholder="Search by location">
+    <select id="location-filter">
+      <option value="">Select District</option>
+      <option value="Chittoor">Chittoor</option>
+      <option value="Visakhapatnam">Visakhapatnam</option>
+      <option value="Guntur">Guntur</option>
+      <option value="Srikakulam">Srikakulam</option>
+      <option value="East Godavari">East Godavari</option>
+      <option value="West Godavari">West Godavari</option>
+      <option value="Krishna">Krishna</option>
+      <option value="Nellore">Nellore</option>
+    </select>
+    <button id="search-btn">Search</button>
+
+    <section class="filters">
+      <select id="language-filter">
+        <option value="">Select Language</option>
+        <option value="telugu">Telugu</option>
+        <option value="english">English</option>
+        <option value="hindi">Hindi</option>
+      </select>
+    </section>
+
+    <section class="guide-list">
+      <!-- Guides will be populated dynamically here -->
+    </section>
+  </main>
+
+  <!-- Budget Selection Popup -->
+  <div id="budget-popup" class="popup">
+    <h4>Select Your Budget</h4>
+    <button class="low" onclick="bookGuide('low')">Low Budget</button>
+    <button class="medium" onclick="bookGuide('medium')">Medium Budget</button>
+    <button class="high" onclick="bookGuide('high')">High Budget</button>
+    <br>
+    <button onclick="closePopup()">Cancel</button>
+  </div>
+
+  <script src="static/js/guide.js"></script>
+</body>
+</html>

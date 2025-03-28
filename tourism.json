@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Visakhapatnam",
+        "description": "Visakhapatnam, also known as Vizag, is the largest city in Andhra Pradesh and a major port city on the east coast of India. It is known for its beautiful beaches, lush green hills, and rich maritime history. The city offers a perfect blend of natural beauty and industrial growth, making it a popular destination for both tourists and business travelers. It is home to India's oldest shipyard and a major naval base. Apart from beaches, Visakhapatnam has several scenic hill stations, caves, and temples that attract visitors from across the country.",
+        "link": "Visakhapatnam.html"  
+       
+            },   
+    
+    
+        {
+            "name": "Kadapa",
+            "description": "Kadapa, also known as Cuddapah, is located in the Rayalaseema region of Andhra Pradesh. It is known for its rich history, ancient temples, and scenic landscapes. Kadapa is famous for the Gandikota Fort, often referred to as the 'Grand Canyon of India,' and the picturesque Penna River. The district also has important religious sites such as the Sri Lakshmi Venkateswara Temple in Kadapa and the Pushpagiri Monastery.",
+            "link": "Kadapa.html"
+           
+        },
+        {
+            "name": "Kurnool",
+            "description": "Kurnool is a historic city located in the Rayalaseema region. It is famous for the Belum Caves, the largest and longest caves in India, and the Konda Reddy Fort. Kurnool is also known for its religious landmarks such as the Ahobilam Temple, dedicated to Lord Narasimha, and the Srisailam Temple.",
+            "link": "Kurnool.html"
+           
+        },
+        {
+            "name": "Anantapur",
+            "description": "Anantapur, located in the Rayalaseema region, is known for its dry landscape, large agricultural areas, and significant historical and religious sites. The city is home to the Lepakshi Temple, famous for its hanging pillar and exquisite sculptures, and the Puttaparthi Ashram, the birthplace of Sathya Sai Baba.",
+            "link": "Anantapur.html"
+            
+        },
+        {
+            "name": "Chittoor",
+            "description": "Chittoor is located in the southern part of Andhra Pradesh and is known for its natural beauty and historical importance. The city is famous for the Tirupati temple and the nearby hills, including the Seshachalam Hills. Chittoor is also known for its agricultural produce, particularly red chillies and groundnuts.",
+            "link": "Chittoor.html"
+           
+        },
+        {
+            "name": "Prakasam",
+            "description": "Prakasam district is located in the coastal region of Andhra Pradesh and is known for its beautiful beaches and historical landmarks. The district is famous for the Kondareddy Fort in Ongole and the picturesque Mypadu Beach.",
+            "link": "Prakasam.html"
+        },
+        {
+            "name": "Srikakulam",
+            "description": "Prakasam district is located in the coastal region of Andhra Pradesh and is known for its beautiful beaches and historical landmarks. The district is famous for the Kondareddy Fort in Ongole and the picturesque Mypadu Beach.",
+            "link": "Srikakulam.html"
+        },
+        {
+            "name": "EastGodavari",
+            "description": "Prakasam district is located in the coastal region of Andhra Pradesh and is known for its beautiful beaches and historical landmarks. The district is famous for the Kondareddy Fort in Ongole and the picturesque Mypadu Beach.",
+            "link": "EastGodavari.html"
+        },
+        {
+            "name": "WestGodavari",
+            "description": "Prakasam district is located in the coastal region of Andhra Pradesh and is known for its beautiful beaches and historical landmarks. The district is famous for the Kondareddy Fort in Ongole and the picturesque Mypadu Beach.",
+            "link": "WestGodavari.html"
+        },
+        {
+            "name": "Krishna",
+            "description": "Prakasam district is located in the coastal region of Andhra Pradesh and is known for its beautiful beaches and historical landmarks. The district is famous for the Kondareddy Fort in Ongole and the picturesque Mypadu Beach.",
+            "link": "Krishna.html"
+        },
+        {
+            "name": "Nellore",
+            "description": "Prakasam district is located in the coastal region of Andhra Pradesh and is known for its beautiful beaches and historical landmarks. The district is famous for the Kondareddy Fort in Ongole and the picturesque Mypadu Beach.",
+            "link": "Nellore.html"
+        },
+        {
+            "name": "Vizianagaram",
+            "description": "Prakasam district is located in the coastal region of Andhra Pradesh and is known for its beautiful beaches and historical landmarks. The district is famous for the Kondareddy Fort in Ongole and the picturesque Mypadu Beach.",
+            "link": "Vizianagaram.html"
+        }
+        ]
+    
+
+    
+

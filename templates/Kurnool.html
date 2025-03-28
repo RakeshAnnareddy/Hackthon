@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurnool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    h2, h3, p {
+      text-align: center;
+    }
+
+    #places-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+    }
+
+    .place {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 20px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .place img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .place-info {
+      width: calc(100% - 340px);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .map-button {
+      position: bottom;
+      bottom: 10px;
+      right: 10px;
+      padding: 12px 20px;
+      background-color: #84d5eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>WELCOME TO KURNOOL DISTRICT</h2>
+  <p><b>Kurnool District</b> is known for its rich history and beautiful tourist spots. From temples to forts and natural wonders, Kurnool offers a variety of scenic destinations for travelers.</p>
+  <h3>Places to visit in Kurnool</h3>
+  <div id="places-container">
+    <div class="place">
+      <img src="static/images/kondareddy.jpg" alt="Kurnool Fort">
+      <div class="place-info">
+        <h3>Kurnool Kondareddy buruju</h3>
+        <p>The Kurnool Fort, built in the 16th century, offers a glimpse into the history of the region. It is famous for its impressive architecture and historical significance.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/NQHbNpTFFNNt29sDA" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/yaganti.jpg" alt="Alcott Burial Site">
+      <div class="place-info">
+        <h3>Yaganti.</h3>
+        <p>Yaganti Temple or Sri Yaganti Uma Maheswara Temple is a temple of Shiva in Nandyal district in the India state of Andhra Pradesh. It was built according to Vaishnavaite traditions.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/GWtVGAuuEwwckoWZ8" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/Rollapadu.jpg" alt="Rollapadu Wildlife Sanctuary">
+      <div class="place-info">
+        <h3>Rollapadu Wildlife Sanctuary</h3>
+        <p>Rollapadu Wildlife Sanctuary is home to several endangered species, including the Great Indian Bustard. It is a haven for nature lovers and bird watchers.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/NsohFpZ3uXJh5qTVA" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/Ahobilam.jpg" alt="Ahobilam">
+      <div class="place-info">
+        <h3>Ahobilam Temple</h3>
+        <p>Ahobilam is believed to be the very spot where Lord Narayana emerged from a stone pillar to take the form of Narasimha and vanquish Hiranyakashipu. The pillar, known as Ugra Sthambha, later referred to as “Ukku Sthambha” in Telugu, incorrectly translating to the iron pillar, marks this sacred location.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/J9pjoNUq6EvBkFvD6" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/banaganapalle.jpg" alt="Banaganapalle">
+      <div class="place-info">
+        <h3>Banaganapalle</h3>
+        <p>Known for its famous Banaganapalle mangoes, this town is a picturesque place with orchards and greenery. It's a peaceful getaway perfect for nature lovers.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/cd2fBvmVDrozKZeP6" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

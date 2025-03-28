@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chittoor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    h2, h3, p {
+      text-align: center;
+    }
+
+    #places-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+    }
+
+    .place {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 20px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .place img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .place-info {
+      width: calc(100% - 340px);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .map-button {
+      position: bottom;
+      bottom: 10px;
+      right: 10px;
+      padding: 12px 20px;
+      background-color: #84d5eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>WELCOME TO CHITTOOR DISTRICT</h2>
+  <p><b>Chittoor</b>, located in Andhra Pradesh, is renowned for its temples, natural beauty, and rich history. The district is a must-visit for anyone interested in cultural and spiritual experiences.</p>
+  <h3>Places to visit in Chittoor</h3>
+  <div id="places-container">
+    <div class="place">
+      <img src="static/images/sri_venkateswara_temple_tirupati.jpg" alt="Sri Venkateswara Temple">
+      <div class="place-info">
+        <h3>Sri Venkateswara Temple</h3>
+        <p>One of the most revered pilgrimage sites in India, this temple is dedicated to Lord Venkateswara and is located in Tirupati, Chittoor. It is famous for its spiritual importance and grand architecture.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/3ut9zWgWjGM1ZnFk9" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/srikalahasti.jpg" alt="Sri Kalahasti Temple">
+      <div class="place-info">
+        <h3>Sri Kalahasti Temple</h3>
+        <p>The Sri Kalahasti Temple is a famous Shiva temple in Chittoor, known for its intricate architecture and significance as a prominent religious site. It is also known for its Vayu Linga worship.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/NG6Fe3Bh9J9nV1Tp6" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/ashoka_tree_temple.jpg" alt="Ashoka Tree Temple">
+      <div class="place-info">
+        <h3>Ashoka Tree Temple</h3>
+        <p>This temple, located near Tirupati, is known for its association with the famous Ashoka tree. The temple is an important religious spot for pilgrims and nature lovers alike.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/LhD6frdM6gTniTq7A" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/chandragiri_fort.jpg" alt="Chandragiri Fort">
+      <div class="place-info">
+        <h3>Chandragiri Fort</h3>
+        <p>The Chandragiri Fort is a historical landmark built in the 11th century. It is a beautiful place to explore ancient architecture and get a glimpse of the region’s rich history.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/x9a8n3qzrWz4y4mX9" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+    <div class="place">
+      <img src="static/images/srikalahasti_waterfall.jpg" alt="Srikalahasti Waterfalls">
+      <div class="place-info">
+        <h3>Srikalahasti Waterfalls</h3>
+        <p>The Srikalahasti Waterfalls are located near the famous Sri Kalahasti Temple. The picturesque waterfalls make for a serene getaway for nature lovers and photographers.</p>
+        <a class="map-button" href="https://maps.app.goo.gl/mgfzPLRhq3eXGZks6" target="_blank"><center>Explore With Maps</center></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

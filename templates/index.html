@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel with Guru - Andhra Pradesh</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav>
+    <div class="logo">Travel with Guru</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#places">Places</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Welcome to <strong>Travel with Guru</strong>, your guide to exploring the beauty of Andhra Pradesh. 
+        Discover stunning landscapes, historical sites, and hidden gems.</p>
+    </div>
+</section>
+
+<!-- Places Section -->
+<section id="places">
+    <div class="container">
+        <h2>Popular Places in Andhra Pradesh</h2>
+        <div id="places-container"></div>
+    </div>
+</section>
+
+
+
+<!-- Explore More Button -->
+<div class="explore-container">
+    <button id="explore-btn" onclick="location.href='/explore'">Explore More</button>
+</div>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@travelwithguru.com">info@travelwithguru.com</a></p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Follow us on <a href="/contact">Social Media</a></p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Travel with Guru. All rights reserved.</p>
+</footer>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

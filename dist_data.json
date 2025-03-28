@@ -1,0 +1,95 @@
+{
+    "districts": [
+        {
+            "district": "Srikakulam",
+            "name": "Srikakulam",
+            "image": "/static/images/srikakulam.jpg",
+            "location": "Srikakulam",
+            "description": "Known for its rich historical heritage and temples, Srikakulam is a coastal district with a strong cultural influence."
+        },
+        {
+            "district": "Vizianagaram",
+            "name": "Vizianagaram",
+            "image": "/static/images/vijayanagaram.jpg",
+            "location": "Vizianagaram",
+            "description": "A district famous for its forts, palaces, and vibrant traditions, Vizianagaram is a key cultural hub in Andhra Pradesh."
+        },
+        {
+            "district": "Visakhapatnam",
+            "name": "Vishakapatnam",
+            "image": "/static/images/vizag.jpg",
+            "location": "Visakhapatnam",
+            "description": "Also known as Vizag, this coastal city is a major industrial center and a top tourist destination with beautiful beaches."
+        },
+        {
+            "district": "East Godavari",
+            "name": "East Godavari",
+            "image": "/static/images/east_godavari.jpeg",
+            "location": "East Godavari",
+            "description": "Home to the scenic Konaseema region, East Godavari is known for lush green landscapes and the Godavari River."
+        },
+        {
+            "district": "West Godavari",
+            "name": "West Godavari",
+            "image": "/static/images/west_godavari.jpeg",
+            "location": "West Godavari",
+            "description": "A region rich in agriculture and tradition, West Godavari is known for its picturesque lakes and temples."
+        },
+        {
+            "district": "Krishna",
+            "name": "Krishna",
+            "image": "/static/images/vijayawada.jpg",
+            "location": "Krishna",
+            "description": "Famous for its cultural heritage, Vijayawada city, and the Krishna River, this district is an educational and economic hub."
+        },
+        {
+            "district": "Guntur",
+            "name": "Guntur",
+            "image": "/static/images/guntur.jpeg",
+            "location": "Guntur",
+            "description": "A major center for education and agriculture, Guntur is well known for its spicy chilies and historical significance."
+        },
+        {
+            "district": "Prakasam",
+            "name": "Prakasam",
+            "image": "/static/images/Ongole_Board.jpg",
+            "location": "Prakasam",
+            "description": "A district with a blend of coastal and tribal regions, Prakasam is known for its mining and natural beauty."
+        },
+        {
+            "district": "Nellore",
+            "name": "Nellore",
+            "image": "/static/images/nellore.jpeg",
+            "location": "Nellore",
+            "description": "A major agricultural hub, Nellore is known for its paddy fields, beaches, and historical sites like Ranganatha Temple."
+        },
+        {
+            "district": "Chittoor",
+            "name": "Chittoor",
+            "image": "/static/images/tirupati-balaji.jpg",
+            "location": "Chittoor",
+            "description": "Home to the world-famous Tirupati temple, Chittoor is a major religious and agricultural district."
+        },
+        {
+            "district": "Kadapa",
+            "name": "Kadapa",
+            "image": "/static/images/Kadapa.jpg",
+            "location": "Kadapa",
+            "description": "Rich in mineral resources, Kadapa is also known for its historic forts and the famous Ameen Peer Dargah."
+        },
+        {
+            "district": "Anantapur",
+            "name": "Anantapur",
+            "image": "/static/images/ananthapur.jpg",
+            "location": "Anantapur",
+            "description": "A drought-prone district, Anantapur is famous for its silk industry, historical forts, and ISRO's space research center."
+        },
+        {
+            "district": "Kurnool",
+            "name": "Kurnool",
+            "image": "/static/images/kurnool.jpg",
+            "location": "Kurnool",
+            "description": "Once the capital of Andhra Pradesh, Kurnool is known for its rock formations, historical sites, and pilgrimage centers."
+        }
+    ]
+}
