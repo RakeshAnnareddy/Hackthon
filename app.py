@@ -4,7 +4,7 @@ from flask_cors import CORS
 import requests
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="static")
 CORS(app)  # Enable CORS for frontend requests
 app.secret_key = 'travelwithguru2k25@2728'  # Set a secret key for session management
 
